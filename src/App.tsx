@@ -139,7 +139,7 @@ export default function App() {
                   <Download size={18} /> Download Resume
                 </a>
                 <div className="flex items-center gap-4 ml-2">
-                  <a href="#" className="p-3 bg-slate-800/50 hover:bg-slate-800 rounded-full text-slate-300 hover:text-blue-400 transition-colors backdrop-blur-sm border border-slate-700/50">
+                  <a href="https://github.com/dhangarbhushan026" className="p-3 bg-slate-800/50 hover:bg-slate-800 rounded-full text-slate-300 hover:text-blue-400 transition-colors backdrop-blur-sm border border-slate-700/50">
                     <Github size={20} />
                   </a>
                   <a href="#" className="p-3 bg-slate-800/50 hover:bg-slate-800 rounded-full text-slate-300 hover:text-blue-400 transition-colors backdrop-blur-sm border border-slate-700/50">
