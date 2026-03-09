@@ -374,27 +374,33 @@ export default function App() {
             <p className="text-slate-400 mb-12 text-lg">
               Currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             </p>
-            
             <TiltCard className="max-w-xl mx-auto">
-              <form action="https://formsubmit.co/dhangarbhushan026@gmail.com" method="POST" className="bg-slate-800/40 border border-slate-700/50 p-8 rounded-3xl backdrop-blur-md text-left space-y-6">
-                <input type="hidden" name="access_key" value="3c14972d-e2d2-4634-a2ed-e73d611af08e" />
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">Name</label>
-                  <input type="text" id="name" name="name" required className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all" placeholder="John Doe" />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">Email</label>
-                  <input type="email" id="email" name="email" required className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all" placeholder="john@example.com" />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">Message</label>
-                  <textarea id="message" name="message" required rows={4} className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all resize-none" placeholder="Hello Bhushan..."></textarea>
-                </div>
-                <button type="submit" className="w-full py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_25px_rgba(37,99,235,0.5)]">
-                  Send Message
-                </button>
-              </form>
-            </TiltCard>
+  {/* NAVIN Web3Forms Integration */}
+  <form action="https://api.web3forms.com/submit" method="POST" className="bg-slate-800/40 border border-slate-700/50 p-8 rounded-3xl backdrop-blur-md text-left space-y-6">
+    
+    {/* TUJHI UNIQUE ACCESS KEY */}
+    <input type="hidden" name="access_key" value="3c14972d-e2d2-4634-a2ed-e73d611af08e" />
+    
+    {/* OPTIONAL: Form submit jhalyaver Redirect honyasathi link (jar pahije asel tar) */}
+    {/* <input type="hidden" name="redirect" value="https://web3forms.com/success" /> */}
+
+    <div>
+      <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">Name</label>
+      <input type="text" id="name" name="name" required className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-all" placeholder="John Doe" />
+    </div>
+    <div>
+      <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">Email</label>
+      <input type="email" id="email" name="email" required className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-all" placeholder="john@example.com" />
+    </div>
+    <div>
+      <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">Message</label>
+      <textarea id="message" name="message" required rows={4} className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-all resize-none" placeholder="Hello Bhushan..."></textarea>
+    </div>
+    <button type="submit" className="w-full py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)]">
+      Send Message
+    </button>
+  </form>
+</TiltCard>
           </div>
         </section>
       </main>
