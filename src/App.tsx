@@ -142,7 +142,7 @@ export default function App() {
                   <a href="https://github.com/dhangarbhushan026" className="p-3 bg-slate-800/50 hover:bg-slate-800 rounded-full text-slate-300 hover:text-blue-400 transition-colors backdrop-blur-sm border border-slate-700/50">
                     <Github size={20} />
                   </a>
-                  <a href="#" className="p-3 bg-slate-800/50 hover:bg-slate-800 rounded-full text-slate-300 hover:text-blue-400 transition-colors backdrop-blur-sm border border-slate-700/50">
+                  <a href="https://www.linkedin.com/in/bhushan-dhangar-a6282433a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="p-3 bg-slate-800/50 hover:bg-slate-800 rounded-full text-slate-300 hover:text-blue-400 transition-colors backdrop-blur-sm border border-slate-700/50">
                     <Linkedin size={20} />
                   </a>
                   <a href="mailto:dhangarbhushan026@gmail.com" className="p-3 bg-slate-800/50 hover:bg-slate-800 rounded-full text-slate-300 hover:text-blue-400 transition-colors backdrop-blur-sm border border-slate-700/50">
