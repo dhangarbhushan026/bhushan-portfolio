@@ -37,7 +37,7 @@ export default function App() {
       { name: 'C', level: 80 },
       { name: 'C#', level: 70 },
       { name: 'SQL', level: 70 },
-      { name: 'Java', level: 15 },
+      { name: 'Java', level: 60 },
     ],
     tools: ['Git', 'GitHub', 'Vercel', 'Acode', 'VS Code']
   };
