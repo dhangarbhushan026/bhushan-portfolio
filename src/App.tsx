@@ -160,7 +160,7 @@ export default function App() {
                       alt="Bhushan Ashok Dhangar"
                       className="w-full h-full object-cover"
                       />
-</div>
+                  </div>
                 </div>
               </TiltCard>
             </div>
