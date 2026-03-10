@@ -155,7 +155,7 @@ export default function App() {
               <TiltCard>
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-1 bg-gradient-to-tr from-blue-500 to-purple-600 shadow-[0_0_40px_rgba(59,130,246,0.3)]">
                   <div className="w-full h-full rounded-full bg-slate-900 border-4 border-slate-950 overflow-hidden flex items-center justify-center">
-                    {/* Placeholder for Profile Image */}
+                    src="https://lh3.googleusercontent.com/d/1P9L1m_lZngNtgxu5EftifUV8NevS96SZ"
                     <div className="text-6xl font-bold text-slate-700">B.</div>
                   </div>
                 </div>
