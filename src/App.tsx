@@ -154,11 +154,13 @@ export default function App() {
             <div className="order-1 md:order-2 flex justify-center">
               <TiltCard>
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-1 bg-gradient-to-tr from-blue-500 to-purple-600 shadow-[0_0_40px_rgba(59,130,246,0.3)]">
-                  <div className="w-full h-full rounded-full bg-slate-900 border-4 border-slate-950 overflow-hidden flex items-center justify-center">
-                    <img 
+                  <div className="w-full h-full rounded-full overflow-hidden border-4 border-blue-400 shadow-2xl flex items-center justify-center bg-slate-800">
+                    <img
                       src="https://lh3.googleusercontent.com/d/1P9L1m_lZngNtgxu5EftifUV8NevS96SZ"
-                    <div className="text-6xl font-bold text-slate-700">B.</div>
-                  </div>
+                      alt="Bhushan Ashok Dhangar"
+                      className="w-full h-full object-cover"
+                      />
+</div>
                 </div>
               </TiltCard>
             </div>
