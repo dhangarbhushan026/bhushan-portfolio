@@ -47,8 +47,8 @@ export default function App() {
       title: 'Samarth Vada Pav',
       description: 'Live business website, mobile-first design, deployed on Vercel.',
       tags: ['HTML', 'CSS', 'JS', 'Vercel'],
-      live: '#',
-      github: '#'
+      live: 'https://samarth-vada-pav.vercel.app',
+      github: 'https://github.com/dhangarbhushan026'
     },
     {
       title: 'Student Management System',
@@ -381,7 +381,7 @@ export default function App() {
   {/* NAVIN Web3Forms Integration */}
   <form action="https://api.web3forms.com/submit" method="POST" className="bg-slate-800/40 border border-slate-700/50 p-8 rounded-3xl backdrop-blur-md text-left space-y-6">
     
-    {/* TUJHI UNIQUE ACCESS KEY */}
+    {/* UNIQUE ACCESS KEY */}
     <input type="hidden" name="access_key" value="3c14972d-e2d2-4634-a2ed-e73d611af08e" />
     
     {/* OPTIONAL: Form submit jhalyaver Redirect honyasathi link (jar pahije asel tar) */}
