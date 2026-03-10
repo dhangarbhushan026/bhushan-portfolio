@@ -61,8 +61,8 @@ export default function App() {
       title: 'Expense Tracker',
       description: 'Real-time total calculation and expense management.',
       tags: ['HTML', 'CSS', 'JS'],
-      live: '#',
-      github: '#'
+      live: 'https://smart-expensive-tracker-project.vercel.app/',
+      github: 'https://github.com/dhangarbhushan026'
     }
   ];
 
