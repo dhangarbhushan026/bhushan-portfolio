@@ -135,7 +135,7 @@ export default function App() {
                 I build hyper-professional, interactive, and scalable web applications. Passionate about clean code and AI integration.
               </p>
               <div className="flex flex-wrap items-center gap-4 pt-4">
-                <a href="#" className="px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-medium transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] flex items-center gap-2">
+                <a href="https://drive.google.com/file/d/1Qm5R_hi7d97zcV8uoIpR-Gx4l5_CZkyR/view?usp=sharing" className="px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-medium transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] flex items-center gap-2">
                   <Download size={18} /> Download Resume
                 </a>
                 <div className="flex items-center gap-4 ml-2">
